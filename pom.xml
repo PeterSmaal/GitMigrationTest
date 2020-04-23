@@ -33,7 +33,7 @@
 
     <groupId>org.example</groupId>
     <artifactId>Java</artifactId>
-    <version>1.0.0.1-SNAPSHOT</version>
+    <version>1.0.0.0-SNAPSHOT</version>
 
     <scm>
         <connection>scm:git:https://github.com/PeterSmaal/GitMigrationTest.git</connection>
@@ -49,5 +49,18 @@
             </plugin>
         </plugins>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>release-repo</id>
+            <name>Location where released artefact are stored</name>
+            <url>file://C:\Users\peter_smaal\Documents\Java\GitMigrationTest\release</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshot-repo</id>
+            <name>Location where snapshot / development releases are stored</name>
+            <url>file://C:\Users\peter_smaal\Documents\Java\GitMigrationTest\snapshot</url>
+        </snapshotRepository>
+    </distributionManagement>
 
 </project>

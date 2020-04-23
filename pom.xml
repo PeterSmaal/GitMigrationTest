@@ -36,7 +36,7 @@
     <version>1.0.0.1-SNAPSHOT</version>
 
     <scm>
-        <connection>scm:git:https://github.com/PeterSmaal/</connection>
+        <connection>scm:git:https://github.com/PeterSmaal/GitMigrationTest.git</connection>
         <tag>v1.0.0.0</tag>
     </scm>
 
